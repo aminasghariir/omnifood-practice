@@ -167,3 +167,19 @@ header a:last-child{
     display: flex; 
 }
 
+.container{
+    text-align: center;
+}
+.container h2{
+    margin:3rem 0 1.5rem 0;
+}
+.logos{
+    height: 3.5rem;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.logos img{
+    filter: brightness(0);
+    opacity: 70%;
+}
