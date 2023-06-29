@@ -341,4 +341,50 @@ header a:last-child{
 }
 .recipes{
     text-align: center;
+    color: #e67e22;
+    font-size: 2rem;
+    margin: 2rem 0 10rem 0;
+}
+.gallery{
+    max-width: 100%;
+    background-color: #ffe5d0;
+}
+.gallery-opinion{
+    max-width: 50%;
+    /* background-color: #f7c79d; */
+    display: grid;
+    grid-template-columns:50% 50% ;
+    grid-template-rows: 20rem 1fr 1fr;
+    gap: 3rem;
+    margin: 10rem;
+}
+.gallery-title1{
+    color: #e67e22;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 3rem;
+}
+.gallery-title2{
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.user-opinion{
+    font-size: 2rem;
+    line-height: 4rem;
+    margin: 0;
+}
+.user-opinion img{
+    border-radius: 50%;
+}
+.writer{
+    color: #555555b0;
+}
+.gallery-grid1{
+    grid-column: 1/-1;
+}
+.gallery-grid2{
+    grid-column:1 ;
+    grid-row:2 ;
 }
