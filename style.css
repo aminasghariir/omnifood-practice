@@ -395,7 +395,7 @@ header a:last-child{
     grid-template-columns: repeat(3,1fr);
     row-gap: 2rem;
     column-gap: 2rem;
-    margin: 3rem 0;
+    margin: 3rem 3rem 3rem 0;
 }
 .food-gallery img{
     width: 100%;
@@ -403,4 +403,97 @@ header a:last-child{
 .food:hover{
     transform: scale(1.1);
     transition: all 0.5s;
+}
+.offer-header{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 5rem 3rem ;
+}
+.offer-header1{
+    margin-bottom: 3rem;
+    color: #e67e22;
+    font-size: 1.5rem;
+}
+.offer-header2{
+    font-size: 5rem;
+    color: black;
+}
+.price-card{
+    max-width: 130rem;
+    margin:0 auto ;
+    /* background-color: #e67e22; */
+    line-height: 3rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+}
+.starter-card{
+    max-width: 30%;
+    /* background-color: aqua; */
+    border: #ffe5d0 solid 3px;
+    border-radius: 1.5rem;
+}
+.starter-card-data{
+    padding: 3rem;
+}
+.starter-card-data1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding-bottom: 3rem;
+    color: #e67e22;
+}
+.starter-card-data2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding-bottom: 3rem;
+}
+.starter-card-data3{
+    text-align: center;
+    font-size: 1.75rem;
+    padding-bottom: 4rem;
+}
+.starter-card-data4{
+    font-size:2rem ;
+    line-height: 4rem;
+    padding-left: 3rem;
+}
+.starter-card-data5{
+    text-align: center;
+    padding: 2rem 3rem;
+    background-color: #e67e22;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    align-self: center;
+    margin-top: 4rem;
+    font-size: 2rem;
+}
+.starter-card a{
+    text-decoration: none;
+    color: white;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
+.complete-card{
+    background-color: #fde7d4;
+    position: relative;
+    overflow: hidden;
+    border: none;
+}
+.best{
+    position: absolute;
+    top: 3rem;
+    right: -4rem;
+    background-color: rgb(255, 190, 13);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0 5rem;
+    transform: rotate(45deg);
 }
