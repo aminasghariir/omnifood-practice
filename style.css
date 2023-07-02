@@ -490,10 +490,41 @@ header a:last-child{
 .best{
     position: absolute;
     top: 3rem;
-    right: -4rem;
+    right: -4.5rem;
     background-color: rgb(255, 190, 13);
     font-size: 1.4rem;
     font-weight: bold;
     padding: 0 5rem;
     transform: rotate(45deg);
+}
+.offer-card{
+    margin-bottom: 5rem;
+}
+.after-price-card{
+    text-align: center;
+    color: black;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+
+}
+.description{
+    max-width: 120rem;
+    margin: 10rem auto;
+    display: flex;
+    gap: 5rem;
+}
+.description-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.description-text{
+    font-size: 1.65rem;
+    font-weight: 100;
+}
+/* .description div{
+    flex-basis: 23rem;
+} */
+.cta{
+    max-width: 130rem;
 }
