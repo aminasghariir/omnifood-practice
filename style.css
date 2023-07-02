@@ -526,5 +526,61 @@ header a:last-child{
     flex-basis: 23rem;
 } */
 .cta{
-    max-width: 130rem;
+    max-width: 110rem;
+    margin: 0 auto;
+    background-color: #e67e22;
+    border-radius: 2rem;
+}
+.cta-object{
+    display: flex;
+    justify-content: space-between;
+}
+.cta-text{
+    flex-basis: 70%;
+}
+.cta-img img{
+    width: 100%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}.cta-img{
+    flex-basis:30% ;
+}
+.cta-text-grid{
+    font-size: 2rem;
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+.cta-text{
+    margin: 5rem;
+}
+.cta-text-header1{
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    color: #45260a;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+.cta-text-text{
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #4d2f16;
+    margin-bottom: 5rem;
+}
+.cta-text1 p{
+    color: #4d2f16;
+    margin-bottom: 1rem;
+}
+.cta-text1 input ,.cta-text1 select,.cta-text a{
+    font-size: 1.85rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #fde7d4;
+    width: 100%;
+}
+.cta-text a{
+    background-color: #45260a;
+    text-decoration: none;
+    color: white;
 }
