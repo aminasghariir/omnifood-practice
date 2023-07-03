@@ -533,7 +533,7 @@ header a:last-child{
 }
 .cta-object{
     display: flex;
-    justify-content: space-between;
+    margin-bottom: 10rem;
 }
 .cta-text{
     flex-basis: 70%;
@@ -550,9 +550,11 @@ header a:last-child{
     display: grid;
     gap: 5rem;
     grid-template-columns: 1fr 1fr;
+    align-items: end;
 }
 .cta-text{
-    margin: 5rem;
+    /* margin: 5rem; */
+    padding: 1rem;
 }
 .cta-text-header1{
     font-size: 5rem;
@@ -583,4 +585,17 @@ header a:last-child{
     background-color: #45260a;
     text-decoration: none;
     color: white;
+    /* justify-self: center; */
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1.85rem;
+}
+.cta-text a:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+}
+hr{
+    margin-bottom: 10rem;
+    color: black;
 }
